@@ -40,7 +40,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Top progress bar */
 .progress {
     position: fixed;
     top: 0;
@@ -97,6 +96,10 @@ nav a:hover,
 nav a.active {
     color: var(--text);
     background: rgba(124, 92, 255, .12)
+}
+
+a.btn {
+  text-decoration: none;
 }
 
 .btn {
@@ -512,4 +515,5 @@ footer {
         animation: none !important;
         transition: none !important
     }
+
 }
