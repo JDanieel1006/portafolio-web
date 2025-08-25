@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio – Daniel Farias</title>
+  <meta name="description"
+    content="Portafolio de Jesús Daniel Farías Prieto, Full Stack con foco en frontend (Angular, PrimeNG, Angular Material) y backend .NET, experiencia en sistemas empresariales con SQL Server y MySQL." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="./src/styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="progress" id="progress"></div>
+  <header>
+    <div class="nav">
+      <nav>
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#sobre">Sobre mí</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia" class="hide-sm">Experiencia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="btn" id="toggleTheme" aria-label="Cambiar tema">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div>
+        <div class="badge" style="animation:fadeUp .6s both .1s">Disponible para proyectos • 2025</div>
+        <h1 class="title" style="animation:fadeUp .7s both .15s">
+          Hola, soy <span
+            style="background:linear-gradient(90deg,var(--brand),var(--brand-2)); -webkit-background-clip:text; background-clip:text; color:transparent">
+            Jesus Daniel Farias Prieto
+          </span>.<br />Construyo aplicaciones web claras y fáciles de usar.
+        </h1>
+        <p class="subtitle" style="animation:fadeUp .8s both .2s">
+          Full Stack • Angular • .NET .Desarrollo aplicaciones web limpias, funcionales y mantenibles, siempre
+          buscando soluciones simples y eficientes.
+        </p>
+        <div style="display:flex; gap:12px; margin-top:18px; animation:fadeUp .9s both .25s">
+          <a class="btn" href="./src/assets/CV ATS v1.pdf" target="_blank" rel="noopener noreferrer">
+            📄 Descargar CV
+          </a>
+        </div>
+        <div class="kpis" style="animation:fadeUp 1s both .3s">
+          <div class="kpi">
+            <h3>3 años</h3>
+            <p>de experiencia</p>
+          </div>
+          <div class="kpi">
+            <h3>Angular · .Net</h3>
+            <p>stack principal</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <div class="glass"></div>
+        <div class="blob one"></div>
+        <div class="blob two"></div>
+        <svg viewBox="0 0 400 300" width="100%" height="100%" style="display:block">
+          <defs>
+            <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#7c5cff" />
+              <stop offset="100%" stop-color="#00e0ff" />
+            </linearGradient>
+          </defs>
+          <rect x="16" y="16" width="368" height="120" rx="14" fill="url(#grad)" opacity=".25" />
+          <rect x="16" y="152" width="220" height="120" rx="14" fill="url(#grad)" opacity=".18" />
+          <rect x="248" y="152" width="136" height="120" rx="14" fill="url(#grad)" opacity=".12" />
+          <g fill="none" stroke="url(#grad)">
+            <path d="M20,70 C120,20 280,120 380,60" opacity=".6" />
+            <path d="M20,190 C90,160 190,220 370,210" opacity=".35" />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre">
+      <div class="section-title">
+        <h2>Sobre mí</h2>
+        <div class="line"></div>
+      </div>
+      <p style="max-width:70ch; color:var(--muted)">
+        Soy desarrollador Full Stack con más de 3 años de experiencia en desarrollo de software de escritorio y
+        aplicaciones web limpias y funcionales. He trabajado con tecnologías como Angular, WinForms y .NET,
+        y siempre estoy buscando aprender nuevas herramientas y frameworks.<br><br>
+
+        Me gusta resolver problemas mediante el código, ya sea en el frontend o el backend. Siempre busco
+        mantener las cosas simples, escribir código legible y mejorar constantemente, aplicando buenas prácticas
+        y tecnologías actuales.
+      </p>
+    </section>
+
+    <!-- TECNOLOGÍAS (iconos, sin porcentajes) -->
+    <section id="tecnologias">
+      <div class="section-title">
+        <h2>Tecnologías</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="tech-grid" aria-label="Tecnologías que uso">
+        <!-- ================== FRONTEND ================== -->
+        <div class="tech" title="HTML5">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+          <span>HTML</span>
+        </div>
+        <div class="tech" title="CSS3">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+          <span>CSS</span>
+        </div>
+        <div class="tech" title="JavaScript">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
+        <div class="tech" title="TypeScript">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            alt="TypeScript">
+          <span>TypeScript</span>
+        </div>
+        <div class="tech" title="jQuery">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="jQuery">
+          <span>jQuery</span>
+        </div>
+        <div class="tech" title="Angular">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
+          <span>Angular</span>
+        </div>
+        <div class="tech" title="Bootstrap">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+            alt="Bootstrap">
+          <span>Bootstrap</span>
+        </div>
+        <div class="tech" title="React">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+          <span>React</span>
+        </div>
+
+        <!-- ================== BACKEND ================== -->
+        <div class="tech" title="C#">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+          <span>C#</span>
+        </div>
+        <div class="tech" title=".NET">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET">
+          <span>.NET</span>
+        </div>
+        <div class="tech" title="PHP">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+          <span>PHP</span>
+        </div>
+        <div class="tech" title="MySQL">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+          <span>MySQL</span>
+        </div>
+        <div class="tech" title="SQL Server">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+            alt="SQL Server">
+          <span>SQL Server</span>
+        </div>
+        <div class="tech" title="SQLite">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite">
+          <span>SQLite</span>
+        </div>
+        <div class="tech" title="Docker">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+          <span>Docker</span>
+        </div>
+
+        <!-- ================== TESTING ================== -->
+        <div class="tech" title="Jest">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest">
+          <span>Jest</span>
+        </div>
+        <div class="tech" title="Karma">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/karma/karma-original.svg" alt="Karma">
+          <span>Karma</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+      <div class="section-title">
+        <h2>Proyectos</h2>
+        <div class="line"></div>
+      </div>
+      <div class="projects" id="projectGrid">
+        <article class="card reveal">
+          <div class="thumb">
+            <img src="./src/img/olimpo.png" alt="Olimpo" />
+          </div>
+          <div class="card-body">
+            <span class="tag">jQuery • .NET • SQL Server</span>
+            <h3>Olimpo</h3>
+            <p>Sistema integral de gestión con módulos para control de inventarios, ventas, facturación y reportes en
+              tiempo real.</p>
+            <div class="actions">
+              <a class="link" href="https://olimpo.grupocontrotec.com.mx/" target="_blank" aria-label="Ver demo">🔗 Ver
+                sistema</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="thumb">
+            <img src="./src/img/indigo.png" alt="Indigo" />
+          </div>
+          <div class="card-body">
+            <span class="tag">Angular • .NET • SQL Server</span>
+            <h3>Indigo</h3>
+            <p>Sistema empresarial enfocado en la gestión financiera, con módulos CRUD para control de datos y
+              generación de proyecciones económicas,
+              permitiendo una planificación más precisa y escalable.</p>
+            <div class="actions">
+              <a class="link" href="https://indigo.grupocontrotec.com.mx/login" target="_blank" aria-label="Ver demo">🔗
+                Ver
+                sistema</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="thumb">
+            <img src="./src/img/yisvi.png" alt="Indigo" />
+          </div>
+          <div class="card-body">
+            <span class="tag">Angular</span>
+            <h3>Yisvi</h3>
+            <p>Aplicación web para gestionar equipos de máquinas de hielo y controlar accesos, facilitando el registro,
+              la seguridad y la trazabilidad dentro de entornos empresariales.</p>
+            <div class="actions">
+              <a class="link" href="https://indigo.grupocontrotec.com.mx/login" target="_blank" aria-label="Ver demo">🔗
+                Ver
+                sistema</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia">
+      <div class="section-title">
+        <h2>Experiencia</h2>
+        <div class="line"></div>
+      </div>
+      <div class="timeline">
+        <div class="item reveal">
+          <h4>Full Stack Developer • <a href="https://www.harftechnologies.com.mx/" target="_blank"> Harf Technologies
+            </a> </h4>
+          <p>Marzo, 2022 – Junio, 2025 • Desarrollo Full Stack, diseño de componentes y optimización de aplicaciones
+            web.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <div class="section-title">
+        <h2>Contacto</h2>
+        <div class="line"></div>
+      </div>
+      <form class="reveal"
+        onsubmit="event.preventDefault(); alert('¡Gracias! Me pondré en contacto contigo pronto.'); this.reset();">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu email" required>
+        <textarea name="mensaje" placeholder="Cuéntame sobre tu proyecto" required></textarea>
+        <div style="display:flex; gap:10px; grid-column:1/-1; justify-content:flex-end">
+          <button class="link" type="reset">Limpiar</button>
+          <button class="btn" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Daniel Farias</span>
+    <div style="display:flex; gap:12px">
+      <a class="link" href="mailto:jdanieel70@hotmail.com" target="_blank">Email</a>
+      <a class="link" href="https://www.linkedin.com/in/daniel-farias-dev/" target="_blank">LinkedIn</a>
+      <a class="link" href="https://github.com/JDanieel1006" target="_blank">GitHub</a>
+    </div>
+  </footer>
+  <script src="./src/js/main.js"></script>
+
+</body>
+
+</html>
