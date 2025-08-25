@@ -269,26 +269,33 @@
         <h2>Contacto</h2>
         <div class="line"></div>
       </div>
-      <form class="reveal"
-        onsubmit="event.preventDefault(); alert('¡Gracias! Me pondré en contacto contigo pronto.'); this.reset();">
-        <input type="text" name="nombre" placeholder="Tu nombre" required>
-        <input type="email" name="email" placeholder="Tu email" required>
-        <textarea name="mensaje" placeholder="Cuéntame sobre tu proyecto" required></textarea>
-        <div style="display:flex; gap:10px; grid-column:1/-1; justify-content:flex-end">
-          <button class="link" type="reset">Limpiar</button>
-          <button class="btn" type="submit">Enviar</button>
-        </div>
-      </form>
+
+      <p style="max-width: 70ch; color: var(--muted); margin-bottom: 24px;">
+        Estoy abierto a nuevas oportunidades, ya sea para colaborar en proyectos como freelance o para incorporarme a
+        equipos de trabajo de forma profesional. Si tienes una propuesta, una idea o una vacante relacionada con
+        desarrollo web, no dudes en contactarme por los siguientes medios:
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 16px; font-size: 1rem;">
+        <a class="link" href="mailto:jdanieel70@hotmail.com" target="_blank" rel="noopener">
+          📧 jdanieel70@hotmail.com
+        </a>
+        <a class="link" href="https://wa.me/529222174301" target="_blank" rel="noopener">
+          📱 Enviar mensaje por WhatsApp
+        </a>
+        <a class="link" href="https://www.linkedin.com/in/daniel-farias-dev/" target="_blank" rel="noopener">
+          💼 LinkedIn
+        </a>
+        <a class="link" href="https://github.com/JDanieel1006" target="_blank" rel="noopener">
+          🖥️ GitHub
+        </a>
+      </div>
     </section>
+
   </main>
 
   <footer>
     <span>© <span id="year"></span> Daniel Farias</span>
-    <div style="display:flex; gap:12px">
-      <a class="link" href="mailto:jdanieel70@hotmail.com" target="_blank">Email</a>
-      <a class="link" href="https://www.linkedin.com/in/daniel-farias-dev/" target="_blank">LinkedIn</a>
-      <a class="link" href="https://github.com/JDanieel1006" target="_blank">GitHub</a>
-    </div>
   </footer>
   <script src="./src/js/main.js"></script>
 
